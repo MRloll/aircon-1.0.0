@@ -1,0 +1,36 @@
+.upper-bar .dropdown-list {
+    position: relative;
+}
+
+
+
+.upper-bar .change_lang:hover,
+.upper-bar .dropdown-list ul li:hover {    
+    cursor: pointer;
+    color: #ff800f;
+    transition: color 0.15s ease-in-out,
+        background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out;
+}
+
+.upper-bar .dropdown-list .wrapper {
+    position: relative;
+    color: #696E77;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    display: none;
+}
+
+.upper-bar .dropdown-list ul {
+    font-weight: bold;
+    box-shadow: 0px 0px 9px 0px;
+    background: white;
+    border-radius: 6px;
+    padding: 10px;
+    width: 87px;
+    height: 74px;
+    text-align: center;
+    list-style: none;
+}
