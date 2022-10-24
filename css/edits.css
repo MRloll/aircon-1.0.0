@@ -1,7 +1,10 @@
+* {
+    text-transform: capitalize;
+}
+
 .upper-bar .dropdown-list {
     position: relative;
 }
-
 
 
 .upper-bar .change_lang:hover,
@@ -33,4 +36,33 @@
     height: 74px;
     text-align: center;
     list-style: none;
+}
+
+
+/* edit services and add detail overlay */
+
+.services .service-item  .details-overlay{
+    position: absolute;
+    background: #ff800f;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    top: 0;
+    color: white;
+    display: none;
+}
+
+.services .service-item .details-overlay .fa-times{
+    padding: 10px;
+    font-size: 21px;
+    float: right;  /*edit in rtl*/
+    cursor: pointer;
+}
+
+.services .service-item .details-overlay span {
+    display: inline-block;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    
 }
