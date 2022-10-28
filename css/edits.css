@@ -28,7 +28,7 @@ a:hover {
     border-color: #2b89c8 !important;
     color: white !important;
 }
-
+.btn-primary:active:focus,
 .btn-check:focus+.btn,
 .btn:focus {
     outline: 0;
@@ -148,19 +148,18 @@ nav .lang-wrapper ul li:hover {
     right: 0;
     top: 0;
     color: white;
-    display: none;
+    opacity: 0;
+    transition: all 1s ease;
 }
 
 .services .service-item img {
     width: 100%;
 }
 
-.services .service-item .details-overlay .fa-times{
-    padding: 10px;
-    font-size: 21px;
-    float: right;  /*edit in rtl*/
-    cursor: pointer;
+.services .service-item:hover .details-overlay{
+    opacity: 1;
 }
+
 
 .services .service-item .details-overlay span {
     display: inline-block;
@@ -173,4 +172,18 @@ nav .lang-wrapper ul li:hover {
 /* start footer edits */ 
 .footer .logo {
     width: 200px;
+}
+
+@media (max-width: 768px) {
+    .footer .row .col-md-6.d-flex {
+        display: block !important;
+    }
+}
+
+
+/* whatsapp */
+.whatsapp {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
 }

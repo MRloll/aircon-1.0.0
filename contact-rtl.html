@@ -135,45 +135,51 @@
                         <h3>اذا كنت بحاجة لاي استفسار، اتصل بنا</h3>
                         <div class="h-100 px-lg-4  wow fadeIn" data-wow-delay="0.5s">
                             <div class="bg-white ">
-                                <div class="row g-3">
-                                    <div class="col-sm-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="gname"
-                                                placeholder="Gurdian Name">
-                                            <label for="gname">الاسم</label>
+                                <form onsubmit="">
+
+                                    <div class="row g-3">
+                                        <div class="col-sm-6">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="gname"
+                                                    placeholder="Gurdian Name">
+                                                <label for="gname">الاسم</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-floating">
+                                                <input type="email" class="form-control" id="gmail"
+                                                    placeholder="Gurdian Email">
+                                                <label for="gmail">البريد الاكتروني</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="cname"
+                                                    placeholder="Child Name">
+                                                <label for="cname">رقم الهاتف</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="cage"
+                                                    placeholder="Child Age">
+                                                <label for="cage">نوع الخدمة</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <textarea class="form-control" placeholder="Leave a message here"
+                                                    id="message" style="height: 80px"></textarea>
+                                                <label for="message">الرسالة</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="btn btn-primary py-3 px-5" type="submit">احصل علي اقتباس
+                                                مجاني</button>
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control" id="gmail"
-                                                placeholder="Gurdian Email">
-                                            <label for="gmail">البريد الاكتروني</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="cname" placeholder="Child Name">
-                                            <label for="cname">رقم الهاتف</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="cage" placeholder="Child Age">
-                                            <label for="cage">نوع الخدمة</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here"
-                                                id="message" style="height: 80px"></textarea>
-                                            <label for="message">الرسالة</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary py-3 px-5" type="submit">احصل علي اقتباس
-                                            مجاني</button>
-                                    </div>
-                                </div>
+                                </form>
+
                             </div>
                         </div>
                     </div>
@@ -254,6 +260,9 @@
         <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
                 class="bi bi-arrow-up"></i></a>
 
+        <!-- whatsapp -->
+        <a href="https://api.whatsapp.com/send?phone=050525255"
+            class="btn btn-lg btn-primary btn-lg-square rounded-circle whatsapp"><i class="fab fa-whatsapp"></i></a>
 
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
